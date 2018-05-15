@@ -1,0 +1,73 @@
+<head>
+  <!-- Email.js for Contact Forms -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+     (function(){
+        emailjs.init("user_S8G6qEuCYjOoqqfK1ZffC");
+     })();
+  </script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- SEO -->
+  <meta name="description" content="{{ page.description }}">
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}">
+  {% else %}
+  <meta name="keywords" content="portfolio, resume, omkar pathak, python, HTML, CSS, software developer profession, profession pythonista, personal website, india, india freelancers, freelancer, mmcoe, mmcoe pune">
+  {% endif %}
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }} | {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" href="{{ "public/css/bootstrap.min.css" | relative_url }}"> -->
+  <!-- <link rel="stylesheet" href="{{ "public/css/animate.css" | relative_url }}"> -->
+  <!--   <link rel="stylesheet" href="{{ "public/css/globals.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "public/css/themes.css" | relative_url }}"> -->
+  <link rel="stylesheet" href="{{ "public/css/styles.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "public/css/google-font.css" | relative_url }}">
+  <!-- <link rel="stylesheet" href="{{ "public/css/flickity.min.css" | relative_url }}" media="screen"> -->
+  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Icons -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png"> -->
+  <link rel="shortcut icon" href="{{ "public/favicon.ico" | relative_url }}">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- Facebook Cards -->
+  <meta property="og:description" content="{{ page.description }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image }}"/>
+  {% else %}
+  <meta property="og:image" content="https://www.omkarpathak.in/public/img/about_me_1.jpg"/>
+  {% endif %}
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Omkar Pathak"/>
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@omkarpathak27">
+  <meta name="twitter:creator" content="Omkar Pathak">
+  <meta name="twitter:title" content= "{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:creator" content="Omkar Pathak">
+  {% if page.image %}
+  <meta name="twitter:image:src" content="{{ page.image }}">
+  {% else %}
+  <meta name="twitter:image:src" content="https://www.omkarpathak.in/public/img/about_me_1.jpg"/>
+  {% endif %}
+  <meta name="twitter:domain" content="https://www.omkarpathak.in">
+</head>
