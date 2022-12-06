@@ -14,10 +14,9 @@ const RESOURCES = {
 "splash/img/light-1x.png": "eb671eb120720ba9373d10384594c414",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
 "splash/style.css": "f72e3fd5e384d4a9e3b6aac1a628a3c9",
-"index.html": "435430f19924ec24498246664f7b66eb",
-"/": "435430f19924ec24498246664f7b66eb",
-"main.dart.js": "ed8b53a391aa66643d624a265f7f315b",
-"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"index.html": "ba08767900e51505203a21132294d028",
+"/": "ba08767900e51505203a21132294d028",
+"main.dart.js": "8815a6b216e000c6841576c999d8bad1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -111,11 +110,7 @@ const RESOURCES = {
 "assets/assets/font/IRANYekanBold(FaNum).ttf": "0934dab74211c5f6bf30f2aabc62f4c5",
 "assets/assets/font/IRANYekanRegular(FaNum).ttf": "b925476f90f9e692a399752fd224d743",
 "assets/assets/font/iransansmobile.ttf": "d41d82662a710e51ece8325e239c7711",
-"assets/assets/font/iranyekan.ttf": "f07897acfe022470fe300ba668c39d3d",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
-"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
-"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
+"assets/assets/font/iranyekan.ttf": "f07897acfe022470fe300ba668c39d3d"
 };
 
 // The application shell files that are downloaded before a service worker can
